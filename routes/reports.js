@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/kmom01', function(req, res) {
+router.get('/week/1', function(req, res) {
     const questions = [
         {
             question: "Berätta utförligt om din syn på nodejs backend " +
@@ -23,7 +23,7 @@ router.get('/kmom01', function(req, res) {
     res.json({ data: questions });
 });
 
-router.get('/kmom02', function(req, res) {
+router.get('/week/2', function(req, res) {
     const questions = [
         {
             question: "Vilket JavaScript-ramverk valde du och varför?",
